@@ -1,5 +1,8 @@
+import { setLocalStorage, getLocalStorage } from './localStorage.js'
+
 function showPosition(position) {
   console.log(position.coords.latitude + ", " + position.coords.longitude);
+  setLocalStorage("eIDLocastion", position.coords.latitude + "," + position.coords.longitude);
   document.getElementById("demo").innerHTML = position.coords.latitude + ", " + position.coords.longitude; 
 }
 
