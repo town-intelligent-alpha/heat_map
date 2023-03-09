@@ -18,3 +18,9 @@
 ## 參考資料
 - image merge
   - <script src="https://unpkg.com/merge-images"></script>
+
+## 進度
+- get_task_info 成功
+- image merge 成功
+- TODO: 觀察 figma 並且整合成 API 在 postman 上執行
+- TODO: 整合到新的 mockup
